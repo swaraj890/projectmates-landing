@@ -3,43 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our AI/ML Projects</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ProjectMates | Empowering Students with Expert-Led Project Solutions</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- For icons -->
 </head>
 <body>
-    <header>
-        <h1>🚀 AI/ML Projects</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <!-- Header Section -->
+    <header id="home">
+        <div class="container">
+            <nav>
+                <h1 class="brand">ProjectMates</h1>
+                <ul class="navbar">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero-content">
+                <h2 class="hero-title">Empowering Students with Expert-Led Project Solutions</h2>
+                <p class="hero-text">Transforming the chaos of last-minute project panic into confidence. Let us help you succeed!</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </div>
     </header>
 
-    <section class="project-list">
-        <h2>Our AI/ML Solutions</h2>
-        <ul>
-            <li>🔹 Fraud Detection using Deep Learning</li>
-            <li>🔹 AI-Powered Chatbot for Customer Support</li>
-            <li>🔹 Image Classification for Medical Diagnosis</li>
-            <li>🔹 Automated Resume Screening using AI</li>
-            <li>🔹 Speech-to-Text AI Assistant</li>
-            <li>🔹 Face Recognition Security System</li>
-            <li>🔹 AI-Based Stock Market Prediction</li>
-            <li>🔹 Text Summarization using NLP</li>
-            <li>🔹 Handwritten Digit Recognition</li>
-            <li>🔹 Real-Time Object Detection</li>
-            <li>🔹 IoT-Based Smart Home Automation</li>
-            <li>🔹 AI-Powered OCR for Document Processing</li>
-            <li>🔹 Fake News Detection using NLP</li>
-            <li>🔹 AI-Powered Resume Builder</li>
-        </ul>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Motivation</h2>
+            <p>We've spent 8+ years in AI/ML, cybersecurity, and software development, watching students and researchers struggle with last-minute project panic, poorly documented code, rejected research papers, lack of mentorship. ProjectMates exists to turn this chaos into confidence.</p>
+        </div>
     </section>
 
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h3>End-to-End Project Development</h3>
+                    <p>Code (Python/JS/c) + Deployment (/syremlit/Flask/Heroku). 24-hour emergency delivery for deadlines.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Academic Packaging</h3>
+                    <p>IEEE-style papers | PPTs with animations | Viva prep scripts.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Mentorship</h3>
+                    <p>1:1 Zoom calls with experts to guide you through every step.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Custom Solutions</h3>
+                    <p>We provide tailored solutions for your unique needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">20 Eye-Catching Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>AI-Based Stock Market Prediction</h3>
+                </div>
+                <div class="project-card">
+                    <h3>Deepfake Voice Cloning Detector</h3>
+                </div>
+                <div class="project-card">
+                    <h3>AI-Powered Chatbot for Customer Support</h3>
+                </div>
+                <div class="project-card">
+                    <h3>Crop Disease Predictor</h3>
+                </div>
+                <!-- Add more project cards as necessary -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p>If you have any questions or want to start a project with us, don't hesitate to get in touch!</p>
+            <div class="contact-info">
+                <form class="contact-form" action="#" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" class="social-icon">LinkedIn</a>
+                <a href="https://twitter.com" target="_blank" class="social-icon">Twitter</a>
+                <a href="mailto:teamprojectmate@yahoo.com" class="social-icon">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>📧 Contact: teamprojectmate@yahoo.com</p>
+        <div class="container">
+            <p>&copy; 2025 ProjectMates. All Rights Reserved.</p>
+        </div>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
